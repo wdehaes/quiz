@@ -1,0 +1,6 @@
+<h1>Create a new quiz</h1>
+<%= simple_form_for @quizzy do |f| %>
+  <%= f.input :name %>
+  <%= f.input :description %>
+  <%= f.button :submit %>
+<% end %>
